@@ -31,7 +31,7 @@ while True:
         ui.answer(result)
     else:
         print()
-        print("\033[91mError: \033[0mInvalid input")
+        print("\033[91mError: \033[0mInvalid input!")
         print()
         continue
 

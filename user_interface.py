@@ -55,5 +55,5 @@ class UserInterface:
                 return True
             # if user enter a letter that is not a y/n, an error may occur
             else:
-                print("\033[91mError: \033[0mInvalid input")
+                print("\033[91mError: \033[0mInvalid input!")
                 continue

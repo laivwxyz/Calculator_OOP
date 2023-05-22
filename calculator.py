@@ -4,6 +4,7 @@ class Calculator:
     # Addition,
     def addition(self, num1, num2):
         # if the user choose addition,
+        print()
         print("\033[96m>" * 5, "\033[0m The mathematical operation you choose is \033[93mAddition")
         result = num1 + num2
         return result
@@ -11,6 +12,7 @@ class Calculator:
     # Subtraction
     def subtraction(self, num1, num2):
         # if the user choose subtraction,
+        print()
         print("\033[96m>" * 5, "\033[0m The mathematical operation you choose is \033[94mSubtraction")
         result = num1 - num2
         return result
@@ -18,6 +20,7 @@ class Calculator:
     # Multiplication
     def multiplication(self, num1, num2):
         # if the user choose multiplication,
+        print()
         print("\033[96m>" * 5, "\033[0m The mathematical operation you choose is \033[91mMultiplication")
         result = num1 * num2
         return result
@@ -26,6 +29,7 @@ class Calculator:
     def dividision(self, num1, num2):
         try:
             # if the user choose division,
+            print()
             print("\033[96m>" * 5, "\033[0m The mathematical operation you choose is \033[95mDivision")
             result = num1 / num2
             return result
