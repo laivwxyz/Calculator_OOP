@@ -8,3 +8,14 @@ class UserInterface:
         print("2 : Subtraction")
         print("3 : Multiplication ")
         print("4 : Division")
+        
+    def input_number(self):
+        # Ask user to input a number
+        while True:
+            try:
+                num = float(input("Input a number: "))
+                return num
+            except ValueError as error:
+                print()
+                print(f"Error: {error}")
+                continue
