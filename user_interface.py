@@ -34,3 +34,7 @@ class UserInterface:
         while True:
             try_again = input("Do you want to try again? (y/n): ")
             print()
+            # if user enter n, it's means the program will end
+            if try_again.lower() == "n":
+                print("Thank you!")
+                return False
