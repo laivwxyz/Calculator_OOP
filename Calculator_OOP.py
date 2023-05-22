@@ -20,3 +20,6 @@ while True:
     if operation == "1":
         sum = calc.addition(num1, num2)
         ui.answer(sum)
+    elif operation == "2":
+        diff = calc.subtraction(num1, num2)
+        ui.answer(diff)        
