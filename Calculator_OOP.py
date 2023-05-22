@@ -5,6 +5,7 @@ from calculator import Calculator
 
 # Assign variable for class
 ui = UserInterface()
+calc = Calculator()
 
 # Display mathematical operation
 ui.operation()
