@@ -27,6 +27,7 @@ class UserInterface:
             except ValueError as error:
                 print()
                 print(f"\033[91mError: \033[0m{error}")
+                print()
                 continue
 
     def answer(self, answer):
