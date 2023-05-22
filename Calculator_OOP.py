@@ -10,6 +10,10 @@ calc = Calculator()
 # Display mathematical operation
 ui.operation()
 
-# Ask user for first and second number
-num1 = ui.input_number()
-num2 = ui.input_number()
+while True:
+    # Ask user for first and second number
+    num1 = ui.input_number()
+    num2 = ui.input_number()
+
+    # Choose Operation
+    operation = ui.choose_operation()
