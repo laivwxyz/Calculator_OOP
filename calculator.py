@@ -1,3 +1,7 @@
+# Import UserInterface for ZeroDivision error
+from user_interface import UserInterface
+ui = UserInterface()
+
 # Creating a class named Calculator
 class MathematicalOperator:
 # Performing the chosen operation
