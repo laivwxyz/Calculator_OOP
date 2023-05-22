@@ -41,3 +41,7 @@ class UserInterface:
             # if user enter y, it's means the program will continue
             elif try_again.lower() == 'y':
                 return True
+            # if the user enter a letter that is not a y/n, an error may occur
+            else:
+                print("Error: Invalid input")
+                continue
