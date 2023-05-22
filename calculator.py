@@ -25,6 +25,11 @@ class MathematicalOperator:
     
     # Division
     def dividision(self, num1, num2):
-        # if the user choose division,
-        result = num1 / num2
-        return result
+        try:
+            # if the user choose division,
+            result = num1 / num2
+            return result
+        except ZeroDivisionError:
+            print("Error: Cannot divide by zero.")
+            num1 = ui.input_number()
+            num2 = ui.input_number()
