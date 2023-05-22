@@ -1,5 +1,7 @@
 # import class UserInterface
 from user_interface import UserInterface
+# import class Calculator
+from calculator import Calculator
 
 # Assign variable for class
 ui = UserInterface()

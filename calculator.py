@@ -3,7 +3,7 @@ from user_interface import UserInterface
 ui = UserInterface()
 
 # Creating a class named Calculator
-class MathematicalOperator:
+class Calculator:
 # Performing the chosen operation
     # Addition,
     def addition(self, num1, num2):
