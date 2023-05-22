@@ -12,3 +12,9 @@ class MathematicalOperator:
         # if the user choose subtraction,
         result = num1 - num2
         return result
+    
+    # Multiplication
+    def multiplication(self, num1, num2):
+        # if the user choose multiplication,
+        result = num1 * num2
+        return result
