@@ -28,3 +28,9 @@ class UserInterface:
         # Ask user to choose a math operation
         operation = input("Enter Operation (1-4): ")
         return operation
+    
+    def try_again(self):
+        # Ask the user if they want to try again
+        while True:
+            try_again = input("Do you want to try again? (y/n): ")
+            print()
