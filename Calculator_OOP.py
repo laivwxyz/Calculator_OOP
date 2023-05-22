@@ -33,4 +33,3 @@ while True:
         print()
         print("Error: Invalid input")
         print()
-        continue
