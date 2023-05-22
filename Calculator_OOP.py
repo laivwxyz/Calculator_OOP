@@ -34,3 +34,6 @@ while True:
         print("Error: Invalid input")
         print()
         continue
+
+    if not ui.try_again():
+        break
