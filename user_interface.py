@@ -23,3 +23,8 @@ class UserInterface:
     def answer(self, answer):
         # Print result
         print("Result " + str(answer))
+
+    def choose_operation(self):
+        # Ask user to choose a math operation
+        operation = input("Enter Operation (1-4): ")
+        return operation
