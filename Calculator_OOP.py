@@ -29,3 +29,8 @@ while True:
     elif operation == "4":
         result = calc.dividision(num1, num2)
         ui.answer(result)
+    else:
+        print()
+        print("Error: Invalid input")
+        print()
+        continue
