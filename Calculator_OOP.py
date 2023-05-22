@@ -17,3 +17,6 @@ while True:
 
     # Choose Operation
     operation = ui.choose_operation()
+    if operation == "1":
+        sum = calc.addition(num1, num2)
+        ui.answer(sum)
