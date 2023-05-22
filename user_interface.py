@@ -1,6 +1,6 @@
 # Creating a class named UserInterface
 class UserInterface:
-    # Display the mathematical operation
+    # Display mathematical operation
     def operation(self):
         print("Calculator")
         print("Choose one mathemathical operation: ")
