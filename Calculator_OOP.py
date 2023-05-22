@@ -18,8 +18,11 @@ while True:
     # Choose Operation
     operation = ui.choose_operation()
     if operation == "1":
-        sum = calc.addition(num1, num2)
-        ui.answer(sum)
+        result = calc.addition(num1, num2)
+        ui.answer(result)
     elif operation == "2":
-        diff = calc.subtraction(num1, num2)
-        ui.answer(diff)        
+        result = calc.subtraction(num1, num2)
+        ui.answer(result)        
+    elif operation == "3":
+        result = calc.multiplication(num1, num2)
+        ui.answer(result)
