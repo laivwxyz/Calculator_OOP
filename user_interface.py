@@ -19,3 +19,7 @@ class UserInterface:
                 print()
                 print(f"Error: {error}")
                 continue
+
+    def answer(self, answer):
+        # Print result
+        print("Result " + str(answer))
