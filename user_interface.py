@@ -39,5 +39,5 @@ class UserInterface:
                 print("Thank you!")
                 return False
             # if user enter y, it's means the program will continue
-            elif try_again.lower() == "y":
+            elif try_again.lower() == 'y':
                 return True
