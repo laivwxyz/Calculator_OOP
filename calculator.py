@@ -6,3 +6,9 @@ class MathematicalOperator:
         # if the user choose addition,
         result = num1 + num2
         return result
+    
+    # Subtraction
+    def subtraction(self, num1, num2):
+        # if the user choose subtraction,
+        result = num1 - num2
+        return result
