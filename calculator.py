@@ -18,3 +18,9 @@ class MathematicalOperator:
         # if the user choose multiplication,
         result = num1 * num2
         return result
+    
+    # Division
+    def dividision(self, num1, num2):
+        # if the user choose division,
+        result = num1 / num2
+        return result
