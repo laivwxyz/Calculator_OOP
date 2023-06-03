@@ -8,6 +8,7 @@ from inheritance_calculator import CalculatorInheritance
 # Assign variable for class
 ui = UserInterface()
 calc = Calculator()
+inherit = CalculatorInheritance()
 
 # Display mathematical operation
 ui.operation()
