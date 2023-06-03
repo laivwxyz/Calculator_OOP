@@ -7,3 +7,9 @@ class CalculatorInheritance(Calculator):
         # if the user choose modulus,
         result = num1 % num2
         return result
+
+    # Exponent,
+    def exponent(self, num1, num2):
+        # if the user choose modulus,
+        result = num1 ** num2
+        return result
