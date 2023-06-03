@@ -38,7 +38,7 @@ class UserInterface:
 
     def choose_operation(self):
         # Ask user to choose a math operation
-        operation = input("\033[92mEnter Operation (1-4): \033[0m")
+        operation = input("\033[92mEnter Operation (1-6): \033[0m")
         return operation
     
     def try_again(self):
