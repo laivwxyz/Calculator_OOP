@@ -32,6 +32,9 @@ while True:
     elif operation == "4":
         result = calc.dividision(num1, num2)
         ui.answer(result)
+    elif operation == "5":
+        result = inherit.modulus(num1, num2)
+        ui.answer(result)
     else:
         print()
         print("\033[91mError: \033[0mInvalid input!")
