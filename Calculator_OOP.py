@@ -2,6 +2,8 @@
 from user_interface import UserInterface
 # import class Calculator
 from calculator import Calculator
+# import class CalculatorInheritance
+from inheritance_calculator import CalculatorInheritance
 
 # Assign variable for class
 ui = UserInterface()
