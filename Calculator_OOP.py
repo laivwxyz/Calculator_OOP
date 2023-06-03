@@ -20,25 +20,25 @@ while True:
 
     # Choose Operation
     operation = ui.choose_operation()
-    if operation == "1":
+    if operation == '1':
         result = calc.addition(num1, num2)
         ui.answer(result)
-    elif operation == "2":
+    elif operation == '2':
         result = calc.subtraction(num1, num2)
         ui.answer(result)        
-    elif operation == "3":
+    elif operation == '3':
         result = calc.multiplication(num1, num2)
         ui.answer(result)
-    elif operation == "4":
+    elif operation == '4':
         result = calc.dividision(num1, num2)
         ui.answer(result)
-    elif operation == "5":
+    elif operation == '5':
         result = inherit.modulus(num1, num2)
         ui.answer(result)
-    elif operation == "6":
+    elif operation == '6':
         result = inherit.exponent(num1, num2)
         ui.answer(result)
-    elif operation == "7":
+    elif operation == '7':
         result = inherit.floor_division(num1, num2)
         ui.answer(result)   
     else:
