@@ -19,9 +19,9 @@ class CalculatorInheritance(Calculator):
         return result
     
     # Floor division,
-    def exponent(self, num1, num2):
+    def floor_division(self, num1, num2):
         # if the user choose floor division,
         print()
-        print("\033[96m>" * 5, "\033[0m The mathematical operation you choose is \033[92mExponent")
-        result = num1 ** num2
+        print("\033[96m>" * 5, "\033[0m The mathematical operation you choose is \033[92mFloor division")
+        result = num1 // num2
         return result
