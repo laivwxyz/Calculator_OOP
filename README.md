@@ -12,7 +12,7 @@ To run this script, you need to have Python installed on your system.
 
 ### USAGE
 
-1. Clone the repository or download the script `Calculator_OOP.py`, `calculator.py` and `user_interface.py`.
+1. Clone the repository or download the script `Calculator_OOP.py`, `calculator.py` `user_interface.py` and `inheritance_calculator.py`.
 
 2. Open your terminal or command prompt and navigate to the directory where the script is located.
 
@@ -27,6 +27,12 @@ To run this script, you need to have Python installed on your system.
     - 3 for multiplication
 
     - 4 for division
+    
+    - 5 for modulus 
+    
+    - 6 for exponent
+    
+    - 7 for floor division
 
 5. The application will ask the user for two numbers.
 
