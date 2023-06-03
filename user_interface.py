@@ -16,7 +16,8 @@ class UserInterface:
     def operation(self):
         print(" " * 35, "\033[93m 1. \033[0mAddition", " " * 45, "\033[91m 3. \033[0mMultiplication \n", 
         " " * 34, "\033[94m 2. \033[0mSubtraction"," " * 42, "\033[95m 4. \033[0mDivision \n", 
-        " " * 34, "\033[91m 5. \033[0mModulus"," " * 46, "\033[92m 6. \033[0mExponent")
+        " " * 34, "\033[91m 5. \033[0mModulus"," " * 46, "\033[92m 6. \033[0mExponent \n",
+        " " * 34, "\033[96m 5. \033[0mFloor division")
         print()
 
     def input_number(self):
