@@ -38,6 +38,9 @@ while True:
     elif operation == "6":
         result = inherit.exponent(num1, num2)
         ui.answer(result)
+    elif operation == "7":
+        result = inherit.floor_division(num1, num2)
+        ui.answer(result)   
     else:
         print()
         print("\033[91mError: \033[0mInvalid input!")
