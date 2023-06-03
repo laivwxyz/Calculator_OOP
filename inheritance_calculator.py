@@ -1,1 +1,3 @@
-from calculator import Calculator:
+from calculator import Calculator
+
+class inheritanceCalculator(Calculator):
