@@ -1,3 +1,4 @@
 from calculator import Calculator
 
-class inheritanceCalculator(Calculator):
+# Creating a class named CalculatorInheritance
+class CalculatorInheritance(Calculator):
